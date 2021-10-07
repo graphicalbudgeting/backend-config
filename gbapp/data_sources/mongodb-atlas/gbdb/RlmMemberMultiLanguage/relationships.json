@@ -1,0 +1,8 @@
+{
+    "languageSettings": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmLanguageSettings",
+        "source_key": "languageSettings",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

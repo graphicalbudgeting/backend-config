@@ -1,0 +1,50 @@
+{
+    "accountSegment": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmSegmentSettings",
+        "source_key": "accountSegment",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "baseCurrency": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmCurrencySettings",
+        "source_key": "baseCurrency",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "currencyConversionSegment": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmSegmentSettings",
+        "source_key": "currencyConversionSegment",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "dataEntryLockSegment": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmSegmentSettings",
+        "source_key": "dataEntryLockSegment",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "displayNameMLList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmMultiLanguage",
+        "source_key": "displayNameMLList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "segment1": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmSegmentSettings",
+        "source_key": "segment1",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "segment2": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmSegmentSettings",
+        "source_key": "segment2",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "segment3": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmSegmentSettings",
+        "source_key": "segment3",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

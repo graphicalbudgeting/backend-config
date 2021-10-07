@@ -1,0 +1,60 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "createdDateTime": {
+            "bsonType": "date"
+        },
+        "createdUser": {
+            "bsonType": "string"
+        },
+        "displayName": {
+            "bsonType": "string"
+        },
+        "displayNameMLList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "isAccessControl": {
+            "bsonType": "bool"
+        },
+        "isAllowDuplicateMemberName": {
+            "bsonType": "bool"
+        },
+        "isCurrency": {
+            "bsonType": "bool"
+        },
+        "memberLinkSegmentSettings": {
+            "bsonType": "objectId"
+        },
+        "segmentType": {
+            "bsonType": "objectId"
+        },
+        "updatedDateTime": {
+            "bsonType": "date"
+        },
+        "updatedUser": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "createdDateTime",
+        "updatedDateTime",
+        "updatedUser",
+        "displayName",
+        "isCurrency",
+        "isAccessControl",
+        "isAllowDuplicateMemberName",
+        "createdUser"
+    ],
+    "title": "RlmSegmentSettings"
+}

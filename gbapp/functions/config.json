@@ -1,0 +1,17 @@
+[
+    {
+        "name": "getAppConfigVersion",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getMemberInFact",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "validateReceipt",
+        "private": false,
+        "disable_arg_logs": true
+    }
+]

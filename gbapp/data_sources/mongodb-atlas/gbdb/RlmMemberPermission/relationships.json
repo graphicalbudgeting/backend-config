@@ -1,0 +1,26 @@
+{
+    "canReadGroupList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmGroupSettings",
+        "source_key": "canReadGroupList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "canReadUserList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmUserSettings",
+        "source_key": "canReadUserList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "canWriteGroupList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmGroupSettings",
+        "source_key": "canWriteGroupList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "canWriteUserList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmUserSettings",
+        "source_key": "canWriteUserList",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

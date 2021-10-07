@@ -1,0 +1,14 @@
+{
+    "displayNameMLList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmMultiLanguage",
+        "source_key": "displayNameMLList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "scaleSettingsList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmScaleSettings",
+        "source_key": "scaleSettingsList",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

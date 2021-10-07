@@ -1,0 +1,91 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "accountSegment": {
+            "bsonType": "objectId"
+        },
+        "baseCurrency": {
+            "bsonType": "objectId"
+        },
+        "createdDateTime": {
+            "bsonType": "date"
+        },
+        "createdUser": {
+            "bsonType": "string"
+        },
+        "currencyConversionSegment": {
+            "bsonType": "objectId"
+        },
+        "dataEntryLockSegment": {
+            "bsonType": "objectId"
+        },
+        "displayName": {
+            "bsonType": "string"
+        },
+        "displayNameMLList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "isActive": {
+            "bsonType": "bool"
+        },
+        "isEntryLocked": {
+            "bsonType": "bool"
+        },
+        "isQuickEntry": {
+            "bsonType": "bool"
+        },
+        "modelType": {
+            "bsonType": "string"
+        },
+        "periodFreq": {
+            "bsonType": "string"
+        },
+        "periodFrom": {
+            "bsonType": "string"
+        },
+        "periodTo": {
+            "bsonType": "string"
+        },
+        "segment1": {
+            "bsonType": "objectId"
+        },
+        "segment2": {
+            "bsonType": "objectId"
+        },
+        "segment3": {
+            "bsonType": "objectId"
+        },
+        "updatedDateTime": {
+            "bsonType": "date"
+        },
+        "updatedUser": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "createdDateTime",
+        "updatedDateTime",
+        "updatedUser",
+        "displayName",
+        "modelType",
+        "periodFreq",
+        "periodFrom",
+        "periodTo",
+        "isQuickEntry",
+        "isActive",
+        "isEntryLocked",
+        "createdUser"
+    ],
+    "title": "RlmModelSettings"
+}

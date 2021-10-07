@@ -1,0 +1,26 @@
+{
+    "displayNameMLList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmMultiLanguage",
+        "source_key": "displayNameMLList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "periodMemberList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmPeriodMember",
+        "source_key": "periodMemberList",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "reportMasterModelSettings": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmModelSettings",
+        "source_key": "reportMasterModelSettings",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "reportModelTypeList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmReportModelType",
+        "source_key": "reportModelTypeList",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

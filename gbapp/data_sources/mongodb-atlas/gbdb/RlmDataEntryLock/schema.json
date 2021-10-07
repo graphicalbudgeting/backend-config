@@ -1,0 +1,43 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "createdDateTime": {
+            "bsonType": "date"
+        },
+        "createdUser": {
+            "bsonType": "string"
+        },
+        "lockingUser": {
+            "bsonType": "objectId"
+        },
+        "modelID": {
+            "bsonType": "string"
+        },
+        "segmentMemberID": {
+            "bsonType": "string"
+        },
+        "updatedDateTime": {
+            "bsonType": "date"
+        },
+        "updatedUser": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "createdDateTime",
+        "updatedDateTime",
+        "updatedUser",
+        "segmentMemberID",
+        "modelID",
+        "createdUser"
+    ],
+    "title": "RlmDataEntryLock"
+}

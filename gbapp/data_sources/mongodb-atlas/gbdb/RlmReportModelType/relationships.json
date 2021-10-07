@@ -1,0 +1,8 @@
+{
+    "modelSettingsList": {
+        "ref": "#/relationship/mongodb-atlas/gbdb/RlmModelSettings",
+        "source_key": "modelSettingsList",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

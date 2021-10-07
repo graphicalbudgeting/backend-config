@@ -1,0 +1,58 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "createdDateTime": {
+            "bsonType": "date"
+        },
+        "createdUser": {
+            "bsonType": "string"
+        },
+        "customSegmentNo": {
+            "bsonType": "long"
+        },
+        "displayName": {
+            "bsonType": "string"
+        },
+        "displayNameMLList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "isAccountType": {
+            "bsonType": "bool"
+        },
+        "isExchangeRateType": {
+            "bsonType": "bool"
+        },
+        "updatedDateTime": {
+            "bsonType": "date"
+        },
+        "updatedUser": {
+            "bsonType": "string"
+        },
+        "version": {
+            "bsonType": "long"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "createdDateTime",
+        "updatedDateTime",
+        "updatedUser",
+        "displayName",
+        "customSegmentNo",
+        "isAccountType",
+        "isExchangeRateType",
+        "version",
+        "createdUser"
+    ],
+    "title": "RlmSegmentType"
+}

@@ -1,0 +1,50 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "createdDateTime": {
+            "bsonType": "date"
+        },
+        "createdUser": {
+            "bsonType": "string"
+        },
+        "displayNameMLList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "isDefault": {
+            "bsonType": "bool"
+        },
+        "scale": {
+            "bsonType": "double"
+        },
+        "scaleText": {
+            "bsonType": "string"
+        },
+        "updatedDateTime": {
+            "bsonType": "date"
+        },
+        "updatedUser": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "createdDateTime",
+        "updatedDateTime",
+        "updatedUser",
+        "scale",
+        "scaleText",
+        "isDefault",
+        "createdUser"
+    ],
+    "title": "RlmScaleSettings"
+}
