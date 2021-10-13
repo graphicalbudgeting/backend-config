@@ -22,8 +22,7 @@ Create your Atlas Cluster for your Graphical Budgeting Realm App.
 
 <https://docs.atlas.mongodb.com/tutorial/create-new-cluster/>
 
-Note
-Do not select the serverless instance for database deployment type, as it is a preview release and has not 
+:information_source: Do not select the serverless instance for database deployment type, as it is a preview release and has not 
 been tested in Graphical Budgeting.
 
 ## Take the necessary actions for each deployment method you have chosen.
