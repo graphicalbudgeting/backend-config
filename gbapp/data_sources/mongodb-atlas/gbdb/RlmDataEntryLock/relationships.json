@@ -1,8 +1,0 @@
-{
-    "lockingUser": {
-        "ref": "#/relationship/mongodb-atlas/gbdb/RlmUserSettings",
-        "source_key": "lockingUser",
-        "foreign_key": "_id",
-        "is_list": false
-    }
-}
